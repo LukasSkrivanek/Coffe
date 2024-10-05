@@ -7,13 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA1E15B12BA203820013E0CF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FA1E15B02BA203820013E0CF /* FirebaseAuth */; };
+		FA1E15B32BA203820013E0CF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FA1E15B22BA203820013E0CF /* FirebaseFirestore */; };
+		FA1E15B52BA203820013E0CF /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FA1E15B42BA203820013E0CF /* FirebaseFirestoreSwift */; };
+		FA33176F2B9DC52E00248936 /* SignInProcessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA33176E2B9DC52E00248936 /* SignInProcessView.swift */; };
+		FA3317722B9DC5E900248936 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = FA3317712B9DC5E900248936 /* GoogleSignIn */; };
+		FA3317742B9DC5E900248936 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FA3317732B9DC5E900248936 /* GoogleSignInSwift */; };
+		FA3317762B9DC68400248936 /* GoogleSignInHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3317752B9DC68400248936 /* GoogleSignInHelper.swift */; };
+		FA3317782B9DC6DC00248936 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3317772B9DC6DC00248936 /* Utilities.swift */; };
+		FA33177A2B9DC8B200248936 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3317792B9DC8B200248936 /* AuthenticationViewModel.swift */; };
+		FA33177D2B9DF4E100248936 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA33177C2B9DF4E100248936 /* GoogleService-Info.plist */; };
 		FAA1D1B72B8C80F400EE7364 /* CoffeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1D1B62B8C80F400EE7364 /* CoffeApp.swift */; };
-		FAA1D1B92B8C80F400EE7364 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1D1B82B8C80F400EE7364 /* ContentView.swift */; };
+		FAA1D1B92B8C80F400EE7364 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1D1B82B8C80F400EE7364 /* HomeView.swift */; };
 		FAA1D1BB2B8C80F600EE7364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA1D1BA2B8C80F600EE7364 /* Assets.xcassets */; };
 		FAA1D1BE2B8C80F600EE7364 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA1D1BD2B8C80F600EE7364 /* Preview Assets.xcassets */; };
-		FAA1D1C82B8C80F600EE7364 /* CoffeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1D1C72B8C80F600EE7364 /* CoffeTests.swift */; };
-		FAA1D1D22B8C80F600EE7364 /* CoffeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1D1D12B8C80F600EE7364 /* CoffeUITests.swift */; };
-		FAA1D1D42B8C80F600EE7364 /* CoffeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1D1D32B8C80F600EE7364 /* CoffeUITestsLaunchTests.swift */; };
+		FAA1D1E32B8C819A00EE7364 /* BasketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1D1E22B8C819A00EE7364 /* BasketView.swift */; };
+		FAA1D1E52B8C81A700EE7364 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1D1E42B8C81A700EE7364 /* AccountView.swift */; };
+		FAA1D1E62B8C81C300EE7364 /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1D1E02B8C811500EE7364 /* AppTabView.swift */; };
+		FAA1D1EB2B8C825A00EE7364 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1D1EA2B8C825A00EE7364 /* Drink.swift */; };
+		FAA1D1ED2B8C831C00EE7364 /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1D1EC2B8C831C00EE7364 /* DummyData.swift */; };
+		FAA1D1EF2B8C8A4800EE7364 /* Basket.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1D1EE2B8C8A4800EE7364 /* Basket.swift */; };
+		FAA1D1F12B8C8A7C00EE7364 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1D1F02B8C8A7C00EE7364 /* Order.swift */; };
+		FAA1D1F32B8C8ABD00EE7364 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1D1F22B8C8ABD00EE7364 /* UserModel.swift */; };
+		FAA1D1F62B8C8B9800EE7364 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1D1F52B8C8B9800EE7364 /* HomeViewModel.swift */; };
+		FAA1D1F92B8C8C8C00EE7364 /* FirebaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1D1F82B8C8C8C00EE7364 /* FirebaseRepository.swift */; };
+		FAA1D2042B8CDD9900EE7364 /* DrinkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1D2032B8CDD9900EE7364 /* DrinkDetailView.swift */; };
+		FAA1D2062B8CE41B00EE7364 /* BasketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1D2052B8CE41B00EE7364 /* BasketViewModel.swift */; };
+		FAA1D2082B8DEC2D00EE7364 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1D2072B8DEC2D00EE7364 /* AccountViewModel.swift */; };
+		FAA1D20D2B8E02D800EE7364 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = FAA1D20C2B8E02D800EE7364 /* KeychainAccess */; };
+		FAA1D2112B8E036100EE7364 /* SecureStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1D2102B8E036100EE7364 /* SecureStorage.swift */; };
+		FAA1D2132B8E049500EE7364 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1D2122B8E049500EE7364 /* UserRepository.swift */; };
+		FAA1D2182B8F1D9600EE7364 /* DrinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1D2172B8F1D9600EE7364 /* DrinkRow.swift */; };
+		FAA1D21A2B8F1D9C00EE7364 /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1D2192B8F1D9C00EE7364 /* RemoteImageView.swift */; };
+		FAA1D2222B8F231000EE7364 /* FColletionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1D2212B8F231000EE7364 /* FColletionReference.swift */; };
+		FAA1D2272B8F55A100EE7364 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1D2262B8F55A100EE7364 /* AppError.swift */; };
+		FADA61F32B9C680400FDD9AF /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FADA61F22B9C680400FDD9AF /* Kingfisher */; };
+		FADA61F62B9C9CA100FDD9AF /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA61F52B9C9CA100FDD9AF /* AuthenticationManager.swift */; };
+		FADA61FC2B9CCE4E00FDD9AF /* SignInModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA61FB2B9CCE4E00FDD9AF /* SignInModelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +64,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA33176E2B9DC52E00248936 /* SignInProcessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInProcessView.swift; sourceTree = "<group>"; };
+		FA3317752B9DC68400248936 /* GoogleSignInHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInHelper.swift; sourceTree = "<group>"; };
+		FA3317772B9DC6DC00248936 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		FA3317792B9DC8B200248936 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		FA33177C2B9DF4E100248936 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA3317822B9DFB9200248936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAA1D1B32B8C80F400EE7364 /* Coffe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coffe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA1D1B62B8C80F400EE7364 /* CoffeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeApp.swift; sourceTree = "<group>"; };
-		FAA1D1B82B8C80F400EE7364 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAA1D1B82B8C80F400EE7364 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FAA1D1BA2B8C80F600EE7364 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA1D1BD2B8C80F600EE7364 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAA1D1C32B8C80F600EE7364 /* CoffeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAA1D1C72B8C80F600EE7364 /* CoffeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeTests.swift; sourceTree = "<group>"; };
 		FAA1D1CD2B8C80F600EE7364 /* CoffeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAA1D1D12B8C80F600EE7364 /* CoffeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeUITests.swift; sourceTree = "<group>"; };
-		FAA1D1D32B8C80F600EE7364 /* CoffeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAA1D1E02B8C811500EE7364 /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
+		FAA1D1E22B8C819A00EE7364 /* BasketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketView.swift; sourceTree = "<group>"; };
+		FAA1D1E42B8C81A700EE7364 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		FAA1D1EA2B8C825A00EE7364 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		FAA1D1EC2B8C831C00EE7364 /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		FAA1D1EE2B8C8A4800EE7364 /* Basket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basket.swift; sourceTree = "<group>"; };
+		FAA1D1F02B8C8A7C00EE7364 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		FAA1D1F22B8C8ABD00EE7364 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		FAA1D1F52B8C8B9800EE7364 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		FAA1D1F82B8C8C8C00EE7364 /* FirebaseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseRepository.swift; sourceTree = "<group>"; };
+		FAA1D2032B8CDD9900EE7364 /* DrinkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetailView.swift; sourceTree = "<group>"; };
+		FAA1D2052B8CE41B00EE7364 /* BasketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewModel.swift; sourceTree = "<group>"; };
+		FAA1D2072B8DEC2D00EE7364 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		FAA1D2102B8E036100EE7364 /* SecureStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureStorage.swift; sourceTree = "<group>"; };
+		FAA1D2122B8E049500EE7364 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		FAA1D2172B8F1D9600EE7364 /* DrinkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkRow.swift; sourceTree = "<group>"; };
+		FAA1D2192B8F1D9C00EE7364 /* RemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageView.swift; sourceTree = "<group>"; };
+		FAA1D2212B8F231000EE7364 /* FColletionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FColletionReference.swift; sourceTree = "<group>"; };
+		FAA1D2262B8F55A100EE7364 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		FADA61F52B9C9CA100FDD9AF /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		FADA61FB2B9CCE4E00FDD9AF /* SignInModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInModelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +105,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3317722B9DC5E900248936 /* GoogleSignIn in Frameworks */,
+				FA1E15B12BA203820013E0CF /* FirebaseAuth in Frameworks */,
+				FADA61F32B9C680400FDD9AF /* Kingfisher in Frameworks */,
+				FA1E15B52BA203820013E0CF /* FirebaseFirestoreSwift in Frameworks */,
+				FAA1D20D2B8E02D800EE7364 /* KeychainAccess in Frameworks */,
+				FA3317742B9DC5E900248936 /* GoogleSignInSwift in Frameworks */,
+				FA1E15B32BA203820013E0CF /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,12 +132,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA33176D2B9DC4F400248936 /* SignInProcessView */ = {
+			isa = PBXGroup;
+			children = (
+				FA33176E2B9DC52E00248936 /* SignInProcessView.swift */,
+			);
+			path = SignInProcessView;
+			sourceTree = "<group>";
+		};
 		FAA1D1AA2B8C80F400EE7364 = {
 			isa = PBXGroup;
 			children = (
 				FAA1D1B52B8C80F400EE7364 /* Coffe */,
-				FAA1D1C62B8C80F600EE7364 /* CoffeTests */,
-				FAA1D1D02B8C80F600EE7364 /* CoffeUITests */,
 				FAA1D1B42B8C80F400EE7364 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,9 +162,16 @@
 			isa = PBXGroup;
 			children = (
 				FAA1D1B62B8C80F400EE7364 /* CoffeApp.swift */,
-				FAA1D1B82B8C80F400EE7364 /* ContentView.swift */,
+				FAA1D1E92B8C822E00EE7364 /* ModelViews */,
+				FAA1D1E82B8C822000EE7364 /* Models */,
+				FAA1D1E72B8C821600EE7364 /* Views */,
+				FAA1D1F72B8C8C7000EE7364 /* Networking */,
+				FADA61F42B9C9BDA00FDD9AF /* Authentication */,
+				FAA1D20E2B8E030500EE7364 /* Utilities */,
 				FAA1D1BA2B8C80F600EE7364 /* Assets.xcassets */,
 				FAA1D1BC2B8C80F600EE7364 /* Preview Content */,
+				FA3317822B9DFB9200248936 /* Info.plist */,
+				FA33177C2B9DF4E100248936 /* GoogleService-Info.plist */,
 			);
 			path = Coffe;
 			sourceTree = "<group>";
@@ -110,21 +184,80 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		FAA1D1C62B8C80F600EE7364 /* CoffeTests */ = {
+		FAA1D1E72B8C821600EE7364 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FAA1D1C72B8C80F600EE7364 /* CoffeTests.swift */,
+				FAA1D1E02B8C811500EE7364 /* AppTabView.swift */,
+				FAA1D1B82B8C80F400EE7364 /* HomeView.swift */,
+				FAA1D1E42B8C81A700EE7364 /* AccountView.swift */,
+				FAA1D1E22B8C819A00EE7364 /* BasketView.swift */,
+				FAA1D2032B8CDD9900EE7364 /* DrinkDetailView.swift */,
+				FA33176D2B9DC4F400248936 /* SignInProcessView */,
+				FAA1D21B2B8F1DA400EE7364 /* Components */,
 			);
-			path = CoffeTests;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		FAA1D1D02B8C80F600EE7364 /* CoffeUITests */ = {
+		FAA1D1E82B8C822000EE7364 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				FAA1D1D12B8C80F600EE7364 /* CoffeUITests.swift */,
-				FAA1D1D32B8C80F600EE7364 /* CoffeUITestsLaunchTests.swift */,
+				FAA1D1EC2B8C831C00EE7364 /* DummyData.swift */,
+				FAA1D1EA2B8C825A00EE7364 /* Drink.swift */,
+				FAA1D1EE2B8C8A4800EE7364 /* Basket.swift */,
+				FAA1D1F02B8C8A7C00EE7364 /* Order.swift */,
+				FAA1D1F22B8C8ABD00EE7364 /* UserModel.swift */,
+				FAA1D2262B8F55A100EE7364 /* AppError.swift */,
 			);
-			path = CoffeUITests;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FAA1D1E92B8C822E00EE7364 /* ModelViews */ = {
+			isa = PBXGroup;
+			children = (
+				FAA1D1F52B8C8B9800EE7364 /* HomeViewModel.swift */,
+				FAA1D2052B8CE41B00EE7364 /* BasketViewModel.swift */,
+				FAA1D2072B8DEC2D00EE7364 /* AccountViewModel.swift */,
+				FADA61FB2B9CCE4E00FDD9AF /* SignInModelView.swift */,
+				FA3317792B9DC8B200248936 /* AuthenticationViewModel.swift */,
+			);
+			path = ModelViews;
+			sourceTree = "<group>";
+		};
+		FAA1D1F72B8C8C7000EE7364 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FAA1D1F82B8C8C8C00EE7364 /* FirebaseRepository.swift */,
+				FAA1D2212B8F231000EE7364 /* FColletionReference.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FAA1D20E2B8E030500EE7364 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FAA1D2102B8E036100EE7364 /* SecureStorage.swift */,
+				FAA1D2122B8E049500EE7364 /* UserRepository.swift */,
+				FA3317772B9DC6DC00248936 /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FAA1D21B2B8F1DA400EE7364 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FAA1D2192B8F1D9C00EE7364 /* RemoteImageView.swift */,
+				FAA1D2172B8F1D9600EE7364 /* DrinkRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FADA61F42B9C9BDA00FDD9AF /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				FADA61F52B9C9CA100FDD9AF /* AuthenticationManager.swift */,
+				FA3317752B9DC68400248936 /* GoogleSignInHelper.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +276,15 @@
 			dependencies = (
 			);
 			name = Coffe;
+			packageProductDependencies = (
+				FAA1D20C2B8E02D800EE7364 /* KeychainAccess */,
+				FADA61F22B9C680400FDD9AF /* Kingfisher */,
+				FA3317712B9DC5E900248936 /* GoogleSignIn */,
+				FA3317732B9DC5E900248936 /* GoogleSignInSwift */,
+				FA1E15B02BA203820013E0CF /* FirebaseAuth */,
+				FA1E15B22BA203820013E0CF /* FirebaseFirestore */,
+				FA1E15B42BA203820013E0CF /* FirebaseFirestoreSwift */,
+			);
 			productName = Coffe;
 			productReference = FAA1D1B32B8C80F400EE7364 /* Coffe.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +357,12 @@
 				Base,
 			);
 			mainGroup = FAA1D1AA2B8C80F400EE7364;
+			packageReferences = (
+				FAA1D20B2B8E02D800EE7364 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+				FADA61F12B9C680400FDD9AF /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				FA3317702B9DC5E900248936 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				FA1E15AF2BA203820013E0CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = FAA1D1B42B8C80F400EE7364 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAA1D1BE2B8C80F600EE7364 /* Preview Assets.xcassets in Resources */,
+				FA33177D2B9DF4E100248936 /* GoogleService-Info.plist in Resources */,
 				FAA1D1BB2B8C80F600EE7364 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +406,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA1D1B92B8C80F400EE7364 /* ContentView.swift in Sources */,
+				FAA1D2112B8E036100EE7364 /* SecureStorage.swift in Sources */,
+				FAA1D1E52B8C81A700EE7364 /* AccountView.swift in Sources */,
+				FAA1D2222B8F231000EE7364 /* FColletionReference.swift in Sources */,
+				FAA1D1F62B8C8B9800EE7364 /* HomeViewModel.swift in Sources */,
+				FAA1D1EF2B8C8A4800EE7364 /* Basket.swift in Sources */,
+				FAA1D1E32B8C819A00EE7364 /* BasketView.swift in Sources */,
+				FAA1D1F12B8C8A7C00EE7364 /* Order.swift in Sources */,
+				FAA1D1B92B8C80F400EE7364 /* HomeView.swift in Sources */,
+				FAA1D2182B8F1D9600EE7364 /* DrinkRow.swift in Sources */,
+				FA33176F2B9DC52E00248936 /* SignInProcessView.swift in Sources */,
+				FAA1D2062B8CE41B00EE7364 /* BasketViewModel.swift in Sources */,
+				FAA1D1ED2B8C831C00EE7364 /* DummyData.swift in Sources */,
 				FAA1D1B72B8C80F400EE7364 /* CoffeApp.swift in Sources */,
+				FADA61FC2B9CCE4E00FDD9AF /* SignInModelView.swift in Sources */,
+				FAA1D2042B8CDD9900EE7364 /* DrinkDetailView.swift in Sources */,
+				FA3317782B9DC6DC00248936 /* Utilities.swift in Sources */,
+				FA33177A2B9DC8B200248936 /* AuthenticationViewModel.swift in Sources */,
+				FADA61F62B9C9CA100FDD9AF /* AuthenticationManager.swift in Sources */,
+				FAA1D1F92B8C8C8C00EE7364 /* FirebaseRepository.swift in Sources */,
+				FA3317762B9DC68400248936 /* GoogleSignInHelper.swift in Sources */,
+				FAA1D1EB2B8C825A00EE7364 /* Drink.swift in Sources */,
+				FAA1D1F32B8C8ABD00EE7364 /* UserModel.swift in Sources */,
+				FAA1D21A2B8F1D9C00EE7364 /* RemoteImageView.swift in Sources */,
+				FAA1D2082B8DEC2D00EE7364 /* AccountViewModel.swift in Sources */,
+				FAA1D2132B8E049500EE7364 /* UserRepository.swift in Sources */,
+				FAA1D1E62B8C81C300EE7364 /* AppTabView.swift in Sources */,
+				FAA1D2272B8F55A100EE7364 /* AppError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +440,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA1D1C82B8C80F600EE7364 /* CoffeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +447,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA1D1D42B8C80F600EE7364 /* CoffeUITestsLaunchTests.swift in Sources */,
-				FAA1D1D22B8C80F600EE7364 /* CoffeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +596,7 @@
 				DEVELOPMENT_TEAM = 57FHRQVBLR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Coffe/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +626,7 @@
 				DEVELOPMENT_TEAM = 57FHRQVBLR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Coffe/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -475,7 +648,6 @@
 		FAA1D1DB2B8C80F600EE7364 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -495,7 +667,6 @@
 		FAA1D1DC2B8C80F600EE7364 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -515,7 +686,6 @@
 		FAA1D1DE2B8C80F600EE7364 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 57FHRQVBLR;
@@ -533,7 +703,6 @@
 		FAA1D1DF2B8C80F600EE7364 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 57FHRQVBLR;
@@ -588,6 +757,79 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA1E15AF2BA203820013E0CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.22.1;
+			};
+		};
+		FA3317702B9DC5E900248936 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		FAA1D20B2B8E02D800EE7364 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		FADA61F12B9C680400FDD9AF /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA1E15B02BA203820013E0CF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA1E15AF2BA203820013E0CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		FA1E15B22BA203820013E0CF /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA1E15AF2BA203820013E0CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		FA1E15B42BA203820013E0CF /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA1E15AF2BA203820013E0CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		FA3317712B9DC5E900248936 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA3317702B9DC5E900248936 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		FA3317732B9DC5E900248936 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA3317702B9DC5E900248936 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		FAA1D20C2B8E02D800EE7364 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAA1D20B2B8E02D800EE7364 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		FADA61F22B9C680400FDD9AF /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FADA61F12B9C680400FDD9AF /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FAA1D1AB2B8C80F400EE7364 /* Project object */;
 }
